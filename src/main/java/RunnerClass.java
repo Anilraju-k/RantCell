@@ -22,7 +22,7 @@ public class RunnerClass {*/
    // glue = {"src//test//java//implimentation"},
     plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"},
     format = {"pretty", "html:target/Destination"}  ,
-    tags={" @tag2"}
+    tags={"@basic"}
 )
 public class RunnerClass {
     @AfterClass
